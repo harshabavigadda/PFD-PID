@@ -5,16 +5,7 @@ import numpy as np
 
 random.seed(1)
 
-"""
-Exposes functionality for writing SFILES (Simplified flowsheet input line entry system) strings
-Based on
-- d’Anterroches, L. Group contribution based process flowsheet synthesis, design and modelling, Ph.D. thesis. 
-  Technical University of Denmark, 2006.
-- Zhang, T., Sahinidis, N. V., & Siirola, J. J. (2019). Pattern recognition in chemical process flowsheets.
-  AIChE Journal, 65(2), 592-603.
-- Weininger, David (February 1988). "SMILES, a chemical language and information system. 1. Introduction to 
-  methodology and encoding rules". Journal of Chemical Information and Computer Sciences. 28 (1): 31–6. 
-"""
+
 
 
 def nx_to_SFILES(flowsheet, version, remove_hex_tags, canonical=True):
